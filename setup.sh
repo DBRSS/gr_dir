@@ -10,7 +10,7 @@ cd ../gr_target
 # edit PREFIX
 if grep -w "######_ADDED_BY_SCRIPT_#####" $HOME/.bashrc -q
 then
-	echo "PREFIX variable has already been set."
+	echo "This script has already been executed."
 else
 	echo "######_ADDED_BY_SCRIPT_#####" >> $HOME/.bashrc
 	cd ../gr_target	
