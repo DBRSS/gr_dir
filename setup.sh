@@ -31,12 +31,10 @@ else
 	echo "export PKG_CONFIG_PATH=$PWD/lib/pkgconfig/" >> $HOME/.bashrc
 	echo "PKG_CONFIG_PATH variable has been set.."
 
-	source $HOME/.bashrc
 fi
-
-# add the correct paths (PATH, PYTHONPATH, LD_LIBRARY_PATH,
-# PKG_CONFIG_PATH)
 
 
 # return back to directory
 cd ../gr_dir
+
+echo "Type 'source ~/.bashrc' and press [ENTER]"
