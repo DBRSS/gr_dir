@@ -18,17 +18,17 @@ else
 	echo "export PREFIX=$PWD" >> $HOME/.bashrc
 	echo "PREFIX variable has been set.."
 
-	echo "export PATH=$PATH:$PWD/bin:$PWD/lib"
+	echo "export PATH=$PATH:$PWD/bin:$PWD/lib" >> $HOME/.bashrc
 	echo "PATH variable has been set.."
 
 
-	echo "export PYTHONPATH=$PWD/lib/python2.7/dist-packages/"
+	echo "export PYTHONPATH=$PWD/lib/python2.7/dist-packages/" >> $HOME/.bashrc
 	echo "PYTHONPATH variable has been set.."
 
-	echo "export LD_LIBRARY_PATH=$PWD/lib:/usr/lib/:/usr/local/lib/"
+	echo "export LD_LIBRARY_PATH=$PWD/lib:/usr/lib/:/usr/local/lib/" >> $HOME/.bashrc
 	echo "LD_LIBRARY_PATH variable has been set.."
 
-	echo "export PKG_CONFIG_PATH=$PWD/lib/pkgconfig/"
+	echo "export PKG_CONFIG_PATH=$PWD/lib/pkgconfig/" >> $HOME/.bashrc
 	echo "PKG_CONFIG_PATH variable has been set.."
 
 	source $HOME/.bashrc
